@@ -15,7 +15,7 @@ const vuetify = createVuetify({
 });
 
 // 如果有自定義組件
-import StaffList from './views/StaffList.vue';
+// import StaffList from './views/StaffList.vue';
 </script>
 
 <template>
@@ -24,9 +24,9 @@ import StaffList from './views/StaffList.vue';
       <v-container>
         <router-view />
         <!-- StaffList Component -->
-        <!-- <StaffList />
-        <h1>Test Component</h1>
-        <p>If this renders, the issue is with the StaffList component.</p> -->
+         <!-- <StaffList /> -->
+        <!-- <h1>Test Component</h1>
+        <p>If this renders, the issue is with the StaffList component.</p>  -->
 
         <!-- 測試 Vuetify 按鈕 -->
         <!-- <v-btn color="primary">Hello Vuetify</v-btn> -->
